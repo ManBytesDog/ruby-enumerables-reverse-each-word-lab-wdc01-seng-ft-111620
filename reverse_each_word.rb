@@ -10,7 +10,7 @@
 
 def reverse_each_word(string_sentence)
   array = string_sentence.split
-  #in_place_reverse_string_sentence = []
+  in_place_reverse_string_sentence = []
     array.collect do |element|
       in_place_reverse_string_sentence << element.reverse 
     end
